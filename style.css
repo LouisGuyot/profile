@@ -11,10 +11,9 @@ a:hover {
 
 body {
   background-color: #E0E1DD;
-  text-align: center;
 }
 
-div.card{
+.card-white {
   background: white;
   padding: 30px;
   border-radius: 4px;
@@ -38,6 +37,10 @@ h2 {
   line-height: 1,6
 }
 
+.img-circle {
+  border-radius: 20%;
+}
+
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
@@ -53,6 +56,10 @@ p {
   font-family: 'Roboto Slab', serif;
   font-size: 16px;
   line-height: 1,6
+}
+
+.text-center {
+  text-align: center;
 }
 
 @media (max-width: 1200px) {
